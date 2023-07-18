@@ -183,7 +183,7 @@ $(document).ready(function () {
       // Submit the form using AJAX.
       $.ajax({
         type: "POST",
-        url: "sendmail.php",
+        url: "testemail.php",
         data: formData
       })
         .done(function (response) {
